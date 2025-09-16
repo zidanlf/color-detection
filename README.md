@@ -64,7 +64,7 @@ ret, frame = cap.read()
 ```
 Here, frame contains the image captured from the webcam, which will then be processed.
 
-### Convert Frame to HSV
+### 3. Convert Frame to HSV
 By default, OpenCV uses the BGR color space, which is less suitable for color detection under varying lighting conditions. Therefore, each frame is converted into the HSV (Hue, Saturation, Value) color space for more reliable detection.
 ```python
 hsvImage = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
