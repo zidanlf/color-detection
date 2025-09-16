@@ -132,3 +132,5 @@ if cv2.waitKey(1) & 0xFF == ord('q'):
 cap.release()
 cv2.destroyAllWindows()
 ```
+## Video
+Youtube: https://youtu.be/3zAxGH3avLM
